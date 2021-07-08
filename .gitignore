@@ -1,0 +1,6 @@
+*.pkl
+*.xz
+/danbooru2020
+.ipynb_checkpoints
+*~
+/meta
