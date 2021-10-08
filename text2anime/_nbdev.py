@@ -2,15 +2,20 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"SortedDL.new": "DataLoading.ipynb",
+index = {"Image.LOAD_TRUNCATED_IMAGES": "DataLoading.ipynb",
+         "ImageFile.LOAD_TRUNCATED_IMAGES": "DataLoading.ipynb",
+         "SortedDL.new": "DataLoading.ipynb",
          "df_text": "DataLoading.ipynb",
          "get_filtered_image_files": "DataLoading.ipynb",
-         "open_image": "DataLoading.ipynb",
-         "MyImageBlock": "DataLoading.ipynb",
+         "BlackCrop": "DataLoading.ipynb",
+         "CropImageBlock": "DataLoading.ipynb",
+         "CropText": "DataLoading.ipynb",
          "Remove1": "DataLoading.ipynb",
-         "DALLE_dataloader": "DataLoading.ipynb"}
+         "DALLE_dataloader": "DataLoading.ipynb",
+         "create_reformer": "Reformer.ipynb"}
 
-modules = ["data_loading.py"]
+modules = ["data_loading.py",
+           "reformer.py"]
 
 doc_url = "/"
 
