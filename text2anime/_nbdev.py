@@ -12,7 +12,7 @@ index = {"Image.LOAD_TRUNCATED_IMAGES": "DataLoading.ipynb",
          "CropText": "DataLoading.ipynb",
          "Remove1": "DataLoading.ipynb",
          "DALLE_dataloader": "DataLoading.ipynb",
-         "create_reformer": "Reformer.ipynb"}
+         "create_reformer": "Tokenization-second-try.ipynb"}
 
 modules = ["data_loading.py",
            "reformer.py"]

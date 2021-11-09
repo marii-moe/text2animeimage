@@ -31,7 +31,7 @@ class df_text(Transform):
     def encodes(self,path):
         file_id=int(path.stem)
         tags=L(list(self.table[self.table.id==file_id].tags.item()))
-        return [' '.join(tags.shuffle().map(lambda x:self.id_tags[x]))]
+        return [' '.join(tags.shuffle().map(lambda x:self.id_tags[x]).sorted())]
     def decodes(self,text):
         return TitledStr(' '.join(text))
 
