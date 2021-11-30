@@ -5,3 +5,6 @@
 /input
 /kaggle_dataset/to_upload
 /02_train.py
+*.amltmp
+*amlignore*
+.ipynb_aml_checkpoints
